@@ -1,8 +1,11 @@
+//variable Creation
+
 const tagsEl = document.getElementById('tags')
 const textarea = document.getElementById('textarea')
 
-textarea.focus()
+//textarea.focus()
 
+//Check that user have entered ENTER key or not
 textarea.addEventListener('keyup', (e) => {
     createTags(e.target.value)
 
@@ -11,10 +14,13 @@ textarea.addEventListener('keyup', (e) => {
             e.target.value = ''
         }, 10)
 
+
+        //random function will be called
         randomSelect()
     }
 })
 
+//Changing tag by ,(comma) and trim them and remap them and put that into span
 function createTags(input) {
     const tags = input.split(',').filter(tag => tag.trim() !== '').map(tag => tag.trim())
     
@@ -28,9 +34,12 @@ function createTags(input) {
     })
 }
 
+
+//this function will
 function randomSelect() {
     const times = 30
 
+    //check interval and call pick Random Tag function
     const interval = setInterval(() => {
         const randomTag = pickRandomTag()
 	
