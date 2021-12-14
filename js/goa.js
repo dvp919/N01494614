@@ -64,11 +64,14 @@ function randomSelect() {
     }, times * 100)
 }
 
+
+//pick tag from given span 
 function pickRandomTag() {
     const tags = document.querySelectorAll('.tag')
     return tags[Math.floor(Math.random() * tags.length)]
 }
 
+//Highlight the lucky number picked by computer
 function highlightTag(tag) {
     tag.classList.add('highlight')
 }
