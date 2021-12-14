@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/mainmaster.css">
+    
     <link rel="stylesheet" href="styles/gujarat.css">
     <link rel="stylesheet" href="styles/main.css">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/indiaLogo.ico" />
     <title>Explore India</title>
-    <script defer src="/js/gujarat.js"></script>
+    <script src="js/gujarat.js"></script>
+    <script src="js/main.js" defer ></script>
 </head>
 <body> 
   <header>
@@ -33,9 +34,9 @@
                 <li><a href ="freedomstruggle.html">Freedom Struggle</a></li>
             </ul>
         </li>
-       <li><a href="#">Destination</a>
+       <li><a class="active" href="#">Destination</a>
             <ul class="dropdown">
-                <li><a href ="gujarat.html">Gujarat</a></li>
+                <li><a class="active" href ="gujarat.html">Gujarat</a></li>
                 <li><a href ="maharastra.html">Maharashtra</a></li>
                 <li><a href ="goa.html">Goa</a></li>
             </ul>
@@ -240,7 +241,11 @@
               <input type="reset" value="Clear Form" onclick="clearFunc()" id="res" class="btn" />
               <input type="submit" value="Create Account" class="btn" onclick="registration()" /></td>
         </tr>
+        
         </table>
+
+        <p id="demo"></p>
+
         </div>
         
         </div>

@@ -2,7 +2,9 @@
 
 
 
-
+$("#submitForm").click(function() {
+    alert("The Form has been Submitted.");
+ });
 
 var slideIndex = 1;
 showSlides(slideIndex);

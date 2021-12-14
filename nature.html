@@ -15,10 +15,11 @@
         <link rel="shortcut icon" href="images/indiaLogo.ico" />
         <link rel="stylesheet" href="styles/nature.css">
            <script src="js/nature.js"></script>   
+           <script src="js/main.js" defer></script> 
     </head>
 
     <body>
-
+        
 
         
 <!-- Navigation -->
@@ -52,8 +53,8 @@
                <li><a class="active" href="#">Experience</a>
                     <ul class="dropdown">
                         <li><a href ="adventure.html">Adventure</a></li>
-                        <li><a href ="nature.html">Nature and Wildlife</a></li>
-                        <li><a href ="yoga.html">Yoga and Wellnes</a></li>
+                        <li><a class="active" href ="nature.html">Nature and Wildlife</a></li>
+                        <li><a  href ="yoga.html">Yoga and Wellnes</a></li>
                     </ul>
                 </li>   
                <li><a href="#">Travel</a>
@@ -83,7 +84,7 @@
            <div class="nature-container">
                <div class="nature-card">
                    <div class="nature-imgbox">
-                       <img src="/images/nature.jpg" alt="natuer">
+                       <img src="images/nature.jpg" alt="natuer">
                    </div>
                    <div class="content">
                        <h2>Nature</h2>
@@ -93,7 +94,7 @@
 
                <div class="nature-card">
                 <div class="nature-imgbox">
-                    <img src="/images/wildlife.jpg" alt="natuer">
+                    <img src="images/wildlife.jpg" alt="natuer">
                 </div>
                 <div class="content">
                     <h2>Wildlife</h2>
@@ -412,17 +413,6 @@
             </p>
           </footer>
         
-      <script>
-          $('#menu-btn').click(function() {
-              $('nav .Navigation ul').addClass('active');
-          });
-          $('#menu-close').click(function() {
-              $('nav .Navigation ul').removeClass('active');
-          });
-      </script>
-
-
-
     </body>
 
 

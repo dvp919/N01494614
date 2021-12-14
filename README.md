@@ -141,6 +141,22 @@ Learning curves:
 Learning curves Task 2: 
 -I have updated second webpage along with javascript.
 
+## Phase: 2
+## Project name: Explore India - Team 5
+## Name : Tummala Harshitha
+## Student Number: N01490310
+
+Tasks:
+Created a web page (freedomstruggle.html) , css(freedomstruggle.css) , js(freedomstruggle.html)
+
+
+Learning Curve and challengers:
+
+Created web page using text,images and styling.
+created pop-up  images using java script and css
+created Image slider using java script.
+Faced challenges while doing Image slider refered to class lecture and watched videos.
+
 ## --------------------------------------------------------------------------------------
 ## Project Phase 3
 ## Project name: Explore India - Team 5
@@ -237,5 +253,22 @@ Learning curves:
 Learning curves Task 3: 
 -Updated the web pagw by integrating javascript in it.
 Added the image slider along with caption.
+
+## Phase: 3
+## Project name: Explore India - Team 5
+## Name : Tummala Harshitha
+## Student Number: N01490310
+
+Tasks:
+Created a web page (medivalhistory.html) , css(medivalhistory.css) , js(medivalhistory.js)
+
+
+Learning Curve and challengers:
+
+Created web page using Videos , content and images
+created image hover effect using css styling and html
+Made a image gallery and image switch on selection using java script.
+Faced challenges for image fitting and its styling refered to W3 schools and content in youtube.
+
 
 

@@ -166,9 +166,34 @@ main {
   padding-left: 30px;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 640px) {
   .container1 {
     padding : 15px 20px;
+    width: 70%;
+  }
+
+  .container2 {
+    padding : 15px 20px;
+    width: 70%;
+  }
+
+  .container3 {
+    padding : 15px 20px;
+    width: 70%;
+  }
+
+  .h3_sardar {
+    font-size: 20px;
+  }
+
+  .container4 {
+    padding : 15px 20px;
+    width: 70%;
+  }
+
+  .container5 {
+    padding : 15px 20px;
+    width: 70%;
   }
 
   .title_video {
@@ -180,9 +205,15 @@ main {
   }
 
   .image_sardar {
-    width: 50%;
+    width: 30%;
+  }
+
+  #main {
+    width: 10%;
   }
 }
+
+
 
 
 

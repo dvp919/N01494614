@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="styles/adventure.css">
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
         <script src="js/adventure.js"></script> 
+        <script src="js/main.js" defer></script> 
     </head>
 
     <body>
@@ -50,7 +51,7 @@
                 </li> 
                <li><a class="active" href="#">Experience</a>
                     <ul class="dropdown">
-                        <li><a href ="adventure.html">Adventure</a></li>
+                        <li><a class="active" href ="adventure.html">Adventure</a></li>
                         <li><a href ="nature.html">Nature and Wildlife</a></li>
                         <li><a href ="yoga.html">Yoga and Wellnes</a></li>
                     </ul>
@@ -325,14 +326,7 @@
             </p>
           </footer>
         
-      <script>
-          $('#menu-btn').click(function() {
-              $('nav .Navigation ul').addClass('active');
-          });
-          $('#menu-close').click(function() {
-              $('nav .Navigation ul').removeClass('active');
-          });
-      </script>
+    
 
     </body>
 

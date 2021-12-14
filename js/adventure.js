@@ -21,8 +21,8 @@ window.onload = function() {
 }
 
 
-let imageArray1 = ["../images/Chadar-trek.jpg","../images/chadder-1.cms","../images/chadder-2.webp","../images/chadder\ -3.jpg"]
-let imageArray2 = ["../images/leh\ -8.jpg","../images/leh\ -5.jpg","../images/leh\ -6.jpg","../images/LEH.jpg"]
+let imageArray1 = ["images/Chadar-trek.jpg","images/chadder-1.cms","images/chadder-2.webp","images/chadder\ -3.jpg"]
+let imageArray2 = ["images/leh\ -8.jpg","images/leh\ -5.jpg","images/leh\ -6.jpg","images/LEH.jpg"]
  
 //automatic slideshow of images
  let imageCount = 0;
