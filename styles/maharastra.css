@@ -16,7 +16,7 @@ main {
 
 .slider-container
 {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     width: 100vw;
     height: 100vh;
@@ -101,3 +101,19 @@ button:focus {
     border-bottom-right-radius: 5px;
 }
 
+
+@media screen and (max-width: 640px) {
+
+    h1{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .left-slide {
+
+    }
+}
